@@ -34,11 +34,11 @@
 
         layer_3 {
             bindings = <
-&trans    &kp F1        &kp F2      &kp F3         &kp F4        &kp F5         &kp F11       &kp F12        &kp F6         &kp F7        &kp F8        &kp F9        &kp F10       &trans     &kp PRINTSCREEN
-&trans    &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(PLUS)  &kp LS(UNDER)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)             &kp LS(PIPE)
-&trans    &kp N1        &kp N2      &kp N3         &kp N4        &kp N5         &kp EQUAL     &kp N6         &kp N7         &kp N8        &kp N9        &kp N0                      &kp MINUS
-&kp HOME                &trans      &kp LEFT       &kp DOWN      &kp UP         &kp RIGHT     &trans         &trans         &trans        &trans        &trans                      &kp END    &mo 3
-&trans    &trans        &trans                                                                               &trans                       &mo 3         &trans                      &trans     &trans
+&trans    &kp F1        &kp F2      &kp F3         &kp F4        &kp F5         &kp F11       &kp F12        &kp F6        &kp F7        &kp F8        &kp F9        &kp F10        &trans     &kp PRINTSCREEN
+&trans    &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(PLUS)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(UNDER)             &kp DEL
+&trans    &kp N1        &kp N2      &kp N3         &kp N4        &kp N5         &kp EQUAL     &kp N6         &kp N7        &kp N8        &kp N9        &kp N0                       &kp MINUS
+&kp HOME                &trans      &kp LEFT       &kp DOWN      &kp UP         &kp RIGHT     &trans         &trans        &trans        &trans        &trans                       &kp UP     &kp END
+&trans    &trans        &trans                                                                               &trans                      &mo 3         &kp LEFT                     &kp DOWN   &kp RIGHT
             >;
         };
 
